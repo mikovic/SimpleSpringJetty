@@ -4,6 +4,7 @@
 
 <html>
 <body>
+<%--@elvariable id="student" type=""--%>
 <form:form action="processForm" modelAttribute="student">
     First Name: <form:input path="firstName" />
     <br>
